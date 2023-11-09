@@ -30,15 +30,13 @@ public class CashbackHackServiceTest {
     }
 
     @org.testng.annotations.Test
-    public void remain1000() {    //метод
-
-        CashbackHackService service = new CashbackHackService();   // сумма покупки 1000 рублей, начисляется кэшбэк
+    public void remain1000() {
+        CashbackHackService service = new CashbackHackService();
         int amount = 1000;
-
         int actual = service.remain(amount);
-        int expected = 0;     //
-
-        assertEquals (actual, expected);
+        int expected = 0;
+        assertEquals(actual, expected);
     }
+
 }
 
