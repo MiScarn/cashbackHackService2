@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     }
 
     @org.junit.Test
-    public void remain999() {    //метод
+    public void remain999() {
 
         CashbackHackService service = new CashbackHackService();
         int amount = 999;
@@ -28,10 +28,11 @@ public class CashbackHackServiceTest {
         org.junit.Assert.assertEquals(expected, actual);
     }
 
-    @org.junit.jupiter.api.Test
-    public void remain1000() {    //метод
 
-        CashbackHackService service = new CashbackHackService();   // сумма покупки 1000 рублей, начисляется кэшбэк
+    @org.junit.jupiter.api.Test
+    public void remain1000() {
+
+        CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
         int actual = service.remain(amount);
