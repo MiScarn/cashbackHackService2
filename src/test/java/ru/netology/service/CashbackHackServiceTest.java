@@ -29,7 +29,7 @@ public class CashbackHackServiceTest {
     }
 
 
-    @org.junit.jupiter.api.Test
+    @org.junit.Test
     public void remain1000() {
 
         CashbackHackService service = new CashbackHackService();
